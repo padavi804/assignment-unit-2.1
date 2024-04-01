@@ -46,7 +46,10 @@ console.log(allowedPets)
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-// let result=true;
+let result;
+if(adventurous==true){result = 'Adventures are great!';}
+else{result = 'How about we stay home';}
+console.log(result);
 
 // console.log(result)
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
@@ -65,6 +68,7 @@ console.log(diceRoll)
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
+let petStatus;
 
 
 // STRETCH GOALS:
