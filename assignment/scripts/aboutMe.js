@@ -34,7 +34,7 @@ console.log(food);
 let pets= 2;
 console.log(pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets= 2; 
+let friendsPets= 3; 
 console.log(friendsPets);
 // 10 - Add two pets to your `pets` variable
 pets= pets + 2;
@@ -81,6 +81,11 @@ console.log(petStatus);
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+let mostPets;
+if (pets > friendsPets){mostPets = pets}
+else if (pets == friendsPets){mostPets = pets || friendsPets}
+else if (pets < friendsPets){mostPets= friendsPets};
+console.log(mostPets)
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
